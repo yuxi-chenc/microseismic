@@ -71,4 +71,4 @@ Reference: Helmstetter, A., et al. (2010), Seismic Monitoring of the Séchilienn
 
 Illgraben Rockslide: Data are available at the GFZ Data Services repository.
 
-DOI: https://doi.org/10.14470/4W61577659
+DOI:
