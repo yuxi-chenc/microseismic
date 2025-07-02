@@ -16,13 +16,13 @@ pip install tensorflow numpy obspy pandas scipy matplotlib pywavelets
 
 ## How to Run
 All functionalities are integrated into run.py. Modify the run_case variable at the top of the script:
-# --- SELECT THE TASK TO RUN ---
+#--- SELECT THE TASK TO RUN ---
+```bash
 run_case = "train"  
-'''
 Options for run_case:
 eve      : Generates event labels (Noise, Event Type) from raw seismic data
 att      : Generates attribute labels (e.g., SSD) from waveform data
 pre_train: Pre-trains a model on attribute labels
 train    : Trains/fine-tunes main model on event labels
 pred     : Makes predictions on new data
-
+```
