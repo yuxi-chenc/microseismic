@@ -1,7 +1,7 @@
-An Intelligent Recognition Network for Microseismic Signals based on Waveform Attributes (SSD)
+🌊 An Intelligent Recognition Network for Microseismic Signals based on Waveform Attributes (SSD)
 This repository provides a complete deep learning pipeline for seismic data processing, including label generation, model training, and event prediction, as presented in our corresponding research paper.
 
-Features
+✨ Features
 Label Generation: Scripts to process raw seismic data and generate various types of labels (e.g., event-based and attribute-based).
 
 Flexible Model Training: A training script that supports building models from scratch or fine-tuning from pre-trained weights.
@@ -10,12 +10,12 @@ Universal Event Prediction: A prediction script to apply trained models on new, 
 
 Modular Workflow: The entire pipeline is controlled through a central runner script (run.py), making it easy to execute different stages.
 
-Requirements
+🔧 Requirements
 To run this project, first install the necessary Python libraries. It is recommended to use a virtual environment.
 
 pip install tensorflow numpy obspy pandas scipy matplotlib pywavelets
 
-How to Run
+🚀 How to Run
 All functionalities of this pipeline are integrated into the run.py script, which provides a simple interface to execute different tasks.
 
 To run a specific task, simply open the run.py file and modify the run_case variable at the top of the script.
@@ -45,14 +45,14 @@ python run.py
 
 The runner script will then automatically call the appropriate sub-script (label_make.py, train.py, or predict.py) with the parameters you have configured.
 
-Models
+🧠 Models
 This repository provides the model architectures used in the paper.
 
 Model definitions can be found in models.py and models_f.py.
 
 The trained model parameters used in the paper are provided in the model/ directory.
 
-Dataset
+💾 Dataset
 All data and code supporting this study are openly available.
 
 Training & Testing Sets
@@ -71,4 +71,4 @@ Reference: Helmstetter, A., et al. (2010), Seismic Monitoring of the Séchilienn
 
 Illgraben Rockslide: Data are available at the GFZ Data Services repository.
 
-DOI:
+DOI: https://doi.org/10.5880/GFZ.4.1.2016.001
