@@ -16,7 +16,6 @@ pip install tensorflow numpy obspy pandas scipy matplotlib pywavelets
 
 ## How to Run
 All functionalities are integrated into run.py. Modify the run_case variable at the top of the script:
-#--- SELECT THE TASK TO RUN ---
 ```bash
 run_case = "train"  
 Options for run_case:
@@ -25,4 +24,11 @@ att      : Generates attribute labels (e.g., SSD) from waveform data
 pre_train: Pre-trains a model on attribute labels
 train    : Trains/fine-tunes main model on event labels
 pred     : Makes predictions on new data
+```
+## Execution Steps
+- **Choose Task: Set run_case in run.py to desired task (e.g., run_case = "pred")
+- **Configure Parameters: Modify command-line parameters in corresponding if/elif block
+- **Run Script:
+```bash
+python run.py
 ```
