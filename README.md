@@ -26,9 +26,29 @@ train    : Trains/fine-tunes main model on event labels
 pred     : Makes predictions on new data
 ```
 ## Execution Steps
-- **Choose Task: Set run_case in run.py to desired task (e.g., run_case = "pred")
-- **Configure Parameters: Modify command-line parameters in corresponding if/elif block
-- **Run Script:
+- Choose Task: Set run_case in run.py to desired task (e.g., run_case = "pred")
+- Configure Parameters: Modify command-line parameters in corresponding if/elif block
+- Run Script:
 ```bash
 python run.py
 ```
+## Model
+-Architectures: Defined in models.py and models_f.py
+-Pre-trained Weights: Provided in model/ directory
+
+##Dataset
+All data and code are openly available.
+- Curated datasets from paper (download and place in appropriate directory):
+Download Link: https://doi.org/YOUR_DOI_HERE
+
+-Continuous Raw Data Sources
+Séchilienne Rockslide	OMIV/RESIF	Use day_datadown.py script	https://doi.com/10.15778/RESIF.MT
+Illgraben Rockslide	GFZ Data Services	Manual download	https://doi.com/10.14470/4W61577659.
+
+##Reference:
+Bianchi, M., Evans, P. L., Heinloo, A., & Quinteros, J. (2015). Webdc3 web interface. GFZ Data Services. doi: 10.5880/GFZ.2.4/2016.001388
+Helmstetter, A., & Garambois, S. (2010). Seismic monitoring of S´echilienne rockslide (French Alps): Analysis of seismic signals and their correlation with rainfalls. Journal of Geophysical Research: Earth Surface, 115 (F3). doi: 10.1029/2009JF001532409
+French Landslide Observatory – Seismological Datacenter / RESIF. (2006). Observatoire Multi-disciplinaire des Instabilit´es de Versants (OMIV) [Data set]. RESIF - R´eseau French Landslide Observatory – Seismological Datacenter / RESIF. (2006). Observatoire Multi-disciplinaire des Instabilit´es de Versants (OMIV) [Data set]. RESIF - R´eseau
+
+
+
