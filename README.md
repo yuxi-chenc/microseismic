@@ -43,7 +43,7 @@ Download Link: https://doi.org/YOUR_DOI_HERE
 
 -Continuous Raw Data Sources
 Séchilienne Rockslide	OMIV/RESIF	Use day_datadown.py script	https://doi.com/10.15778/RESIF.MT
-Illgraben Rockslide	GFZ Data Services	Manual download	https://doi.com/10.14470/4W61577659.
+Illgraben Rockslide	GFZ Data Services	Manual download	https://doi.com/10.5880/GFZ.2.4/2016.001.
 
 ## Reference:
 Bianchi, M., Evans, P. L., Heinloo, A., & Quinteros, J. (2015). Webdc3 web interface. GFZ Data Services. doi: 10.5880/GFZ.2.4/2016.001388
