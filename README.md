@@ -131,7 +131,7 @@ All data and code are openly available.
 The curated sample dataset used in the corresponding paper can be downloaded from:
 
 ```text
-Download Link: https://doi.org/YOUR_DOI_HERE
+Download Link: https://doi.org/10.5281/zenodo.20130810
 ```
 
 Users can directly use the released sample dataset for model training. Users can also prepare their own three-component waveform data and generate training samples using `make_sample_labels.py`.
