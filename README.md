@@ -36,7 +36,7 @@ python run.py
 -Architectures: Defined in models.py and models_f.py
 -Pre-trained Weights: Provided in model/ directory
 
-## make_sample_labels_general.py
+## make_sample_labels.py
 
 This script is used to generate three-component waveform samples and point-wise labels for rockfall-event recognition.
 
