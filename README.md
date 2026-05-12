@@ -136,6 +136,8 @@ Download Link: https://doi.org/10.5281/zenodo.20130810
 
 Users can directly use the released sample dataset for model training. Users can also prepare their own three-component waveform data and generate training samples using `make_sample_labels.py`.
 
+We also provide `day_datadowned.py` and `datalog.csv` for downloading the French Séchilienne dataset used in the paper. The `datalog.csv` file records the time information of the target continuous data, and `day_datadowned.py` can be used to download the corresponding waveform data.
+
 ### Continuous Raw Data Sources
 
 | Dataset | Data Center | Access Method | Link |
