@@ -1,4 +1,4 @@
-# Intelligent Recognition Network for Microseismic Signals Based on Seismic Attributes
+# Seismic-Attribute-Guided Intelligent Recognition Method for Rockfall Signals
 
 This repository provides a complete deep learning pipeline for microseismic signal processing and rockfall-event recognition, including sample-label generation, seismic-attribute feature construction, model training, and event prediction.
 
