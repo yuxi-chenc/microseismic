@@ -1,0 +1,2 @@
+num,station_id,year,month,day,hour,min,sec,duration_s,type,prob
+0,195,2025,7,3,20,0,24.7356,28.0600,R,0.9101
