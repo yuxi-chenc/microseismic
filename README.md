@@ -36,6 +36,41 @@ python run.py
 -Architectures: Defined in models.py and models_f.py
 -Pre-trained Weights: Provided in model/ directory
 
+## make_sample_labels_general.py
+
+This script is used to generate three-component waveform samples and point-wise labels for rockfall-event recognition.
+
+The script does not require the input data to be in SAC format. The only requirement is that each record can provide three-component waveform data and, for rockfall samples, the corresponding rockfall-event time window.
+
+### 1. Purpose
+
+The script converts raw three-component waveform records into training samples and labels.
+
+For each input record, the script:
+
+1. reads the three-component waveform data;
+2. reads the rockfall-event start and end times if the record is a rockfall sample;
+3. normalizes the waveform data;
+4. adds Gaussian white noise;
+5. generates point-wise rockfall and non-rockfall labels;
+6. cuts the waveform into fixed-length samples;
+7. normalizes each sample locally;
+8. balances rockfall and non-rockfall samples;
+9. saves the generated samples and labels as `.npy` files.
+
+### 2. Input requirements
+
+The input data format is flexible. The data do not have to be SAC files.
+
+Each record only needs to provide the following information:
+
+```text
+data_e   # E-component waveform
+data_n   # N-component waveform
+data_z   # Z-component waveform
+t1_sec   # rockfall-event start time, in seconds
+t2_sec   # rockfall-event end time, in seconds
+
 ## Dataset
 All data and code are openly available.
 - Curated datasets from paper (download and place in appropriate directory):
